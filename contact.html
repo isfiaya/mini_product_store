@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneStore - Contact Us</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">phonestore.</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Phones</a></li>
+                <li><a href="#">Compare</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-container">
+            <div class="contact-info">
+                <h1>Get in touch</h1>
+                <p>Have questions about our products? We're here to help. Choose your preferred way to connect with us.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-card">
+                        <div class="icon">📞</div>
+                        <div class="contact-info">
+                            <h2>Call Us</h2>
+                            <p class="hours">Mon-Fri from 8am to 5pm</p>
+                            <p class="detail">+1 (555) 000-0000</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="icon">✉️</div>
+                        <div class="contact-info">
+                            <h2>Email Us</h2>
+                            <p class="hours">Send us an email anytime</p>
+                            <p class="detail">support@phonestore.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="icon">📍</div>
+                        <div class="contact-info">
+                            <h2>Visit Us</h2>
+                            <p class="detail">123 Tech Street</p>
+                            <p class="detail">San Francisco, CA 94105</p>
+                        </div>
+                    </div>
+
+                    <div class="office-hours">
+                        <h2>Office Hours</h2>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                        <p>Saturday: 10:00 AM - 3:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send us a message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="How can we help?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Type your message here..." rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html> 
